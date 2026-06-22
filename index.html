@@ -17,171 +17,171 @@
       
 </head>
 <body class="bg-cloud">
-<nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
-  <a class="navbar-brand" href="#">
-      <img src="assets/icons/computer-3.png"> Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-light navbar-95 border-bottom border-secondary d-none" style="border-width: 2px !important; min-height: 24px; padding: 2px 6px;">
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://opboy94777.github.io">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#">檔案(<u>F</u>)</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link" href="#">編輯(<u>E</u>)</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"></a>
+        <a class="nav-link" href="#">檢視(<u>V</u>)</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Menu
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="https://opboy94777.github.io/project">Project</a>
-          <a class="dropdown-item" href="#">Photo</a>
-          <a class="dropdown-item" href="#"></a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">說明(<u>H</u>)</a>
       </li>
     </ul>
   </div>
 </nav>
 
-<div class="max-w-3xl px-3 py-3 md:pt-20 md:pb-16 mx-auto text-center">
-  
-  <h1 style="font-family: fantasy; color: #000000; font-size: 3rem; text-align: center;">
-  Person Page
-  </h1>
-  
+<div class="desktop-icons d-flex flex-column align-items-center" style="position: absolute; top: 20px; left: 10px; gap: 24px; width: 80px; z-index: 1;">
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="javascript:openWindow('window-my-computer', 'Profile', 'assets/icons/users_green-2.png')" style="color: white; text-decoration: none;">
+            <img src="assets/icons/users_green-2.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">Profile</div>
+        </a>
+    </div>
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="javascript:openWindow('window-project', 'Project', 'assets/icons/directory_open_file_mydocs-0.png')" style="color: white; text-decoration: none;">
+            <img src="assets/icons/directory_open_file_mydocs-0.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">Project</div>
+        </a>
+    </div>
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="minesweeper.html" style="color: white; text-decoration: none;">
+            <img src="assets/icons/game_mine_1-0.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">minesweeper</div>
+        </a>
+    </div>
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="javascript:openWindow('window-recycle-bin', 'trashcane', 'assets/icons/conn_dialup_recbin_phones.png')" style="color: white; text-decoration: none;">
+            <img src="assets/icons/conn_dialup_recbin_phones.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">trashcane</div>
+        </a>
+    </div>
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="javascript:openWinamp()" style="color: white; text-decoration: none;">
+            <img src="assets/icons/computer_musical_keyboard-0.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">Winamp</div>
+        </a>
+    </div>
+    <div class="text-center text-white" style="cursor: pointer; width: 100%;">
+        <a href="waterpuzzle/waterpuzzle.html" style="color: white; text-decoration: none;">
+            <img src="assets/icons/game_hearts.png" style="width: 32px; height: 32px; margin-bottom: 4px;">
+            <div style="font-size: 11px; text-shadow: 1px 1px #000; line-height: 1.2;">waterpuzzle</div>
+        </a>
+    </div>
 </div>
-    
-<div class="container" id="page-content">
-  <div class="row mb-5"> 
-      <div class="col-md-6 text-center">
-            <img src="assets/fih.png" class="img-fluid">
-      </div>
-      <div class="col-md-6 my-auto">
-            <div class="card">
-              <div class="card-header icon">
-                <h4 class="my-0 font-weight-normal "><img src="assets/icons/note-0.png"> 關於我</h4>
-              </div>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <h5>姓名：王宸睿</h5>
-                  <h5>年齡：18</h5>
-                  <h5>星座：牧羊</h5>
-                  <h5>職業：學生</h5>
-                  <h5>喜好：玩roblox</h5>
-                  <h5>就讀：南台科技大學</h5>
-                  <h5>夢想：無</h5>
-                  <hr>
-                  <h5>自介：</h5><h6>這裡放了一切我想放的。</h6>
-                </ul>
-                <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                  <a href="#footer-bottom" class="btn btn-secondary">
-                    <img src="assets/icons/envelope_closed-1.png" class="icon-16"> 信箱
-                  </a>
-                  <button type="button" class="btn btn-secondary"><img src="assets/icons/globe_map-4.png" class="icon-16">關於我</button>
-                  <button type="button" class="btn btn-secondary">這按鈕沒用</button>
+
+<!-- Windows Container -->
+<div id="windows-container">
+    <!-- Recycle Bin Window -->
+    <div id="window-recycle-bin" class="window card w95" style="display: none; position: absolute; width: 500px; max-width: 90vw; z-index: 10;">
+        <div class="card-header d-flex justify-content-between align-items-center" style="cursor: default;">
+            <h4 class="my-0 font-weight-normal text-truncate"><img src="assets/icons/conn_dialup_recbin_phones.png" class="icon-16"> trashcane</h4>
+            <div style="margin-top: -2px; flex-shrink: 0;">
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">_</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">□</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; margin-left: 2px; line-height: 1;" onclick="closeWindow('window-recycle-bin')">X</button>
+            </div>
+        </div>
+        <div class="card-body" style="background: white; min-height: 300px; border: 2px inset #d5d5d5; padding: 10px; margin: 4px; box-shadow: -1px -1px 0 0 #828282;">
+            <div class="d-flex flex-wrap align-items-start" style="gap: 20px;">
+                <div class="text-center" style="width: 80px; cursor: pointer; padding: 4px;" onmouseover="this.style.background='#000080'; this.style.color='white';" onmouseout="this.style.background='transparent'; this.style.color='black';">
+                    <img src="assets/67.gif" style="width: 48px; height: 48px; object-fit: cover; margin-bottom: 4px; border: 1px solid transparent;">
+                    <div style="font-size: 12px; line-height: 1.2; word-wrap: break-word;">realgarbage.gif</div>
+                    <div style="font-size: 10px; color: gray; margin-top: 2px;">2.23 MB</div>
                 </div>
+                <div class="text-center" style="width: 80px; cursor: pointer; padding: 4px;" onmouseover="this.style.background='#000080'; this.style.color='white';" onmouseout="this.style.background='transparent'; this.style.color='black';">
+                    <img src="assets/skibidi.gif" style="width: 48px; height: 48px; object-fit: cover; margin-bottom: 4px; border: 1px solid transparent;">
+                    <div style="font-size: 12px; line-height: 1.2; word-wrap: break-word;">trash.gif</div>
+                    <div style="font-size: 10px; color: gray; margin-top: 2px;">1.45 MB</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer d-flex align-items-center" style="padding: 2px 6px; font-size: 11px; color: #424242; border-top: 1px outset #fff; background: silver;">
+            2 個物件
+        </div>
+    </div>
+    <!-- My Computer Window -->
+    <div id="window-my-computer" class="window card w95" style="display: none; position: absolute; width: 800px; max-width: 95vw; z-index: 10;">
+        <div class="card-header d-flex justify-content-between align-items-center" style="cursor: default;">
+            <h4 class="my-0 font-weight-normal text-truncate"><img src="assets/icons/users_green-2.png" class="icon-16"> Profile</h4>
+            <div style="margin-top: -2px; flex-shrink: 0;">
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">_</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">□</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; margin-left: 2px; line-height: 1;" onclick="closeWindow('window-my-computer')">X</button>
+            </div>
+        </div>
+        <div class="card-body" style="max-height: 70vh; overflow-y: auto;">
+            <div class="container" id="page-content">
+              <div class="row mb-5" style="padding: 10px;"> 
+                  <div class="col-md-5 d-flex align-items-center justify-content-center">
+                        <img src="assets/me.jpg" class="img-fluid" style="width: 100%; max-width: 320px; border: 2px inset #d5d5d5; background: white; padding: 4px;">
+                  </div>
+                  <div class="col-md-7 my-auto">
+                        <div class="card w95 mb-4">
+                          <div class="card-header icon d-flex justify-content-between align-items-center">
+                            <h4 class="my-0 font-weight-normal text-truncate"><img src="assets/icons/note-0.png"> 關於我</h4>
+                          </div>
+                          <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                              <h5>姓名：王宸睿</h5>
+                              <h5>年齡：18</h5>
+                              <h5>星座：牧羊</h5>
+                              <h5>職業：學生</h5>
+                              <h5>喜好：玩roblox</h5>
+                              <h5>就讀：南台科技大學</h5>
+                              <h5>夢想：無</h5>
+                              <hr>
+                              <h5>自介：</h5><h6>這裡放了一切我想放的。</h6>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
               </div>
             </div>
         </div>
-  </div>
+    </div>
+    
+    <!-- Project Window -->
+    <div id="window-project" class="window card w95" style="display: none; position: absolute; width: 400px; max-width: 90vw; z-index: 10;">
+        <div class="card-header d-flex justify-content-between align-items-center" style="cursor: default;">
+            <h4 class="my-0 font-weight-normal text-truncate"><img src="assets/icons/directory_open_file_mydocs-0.png" class="icon-16"> Project</h4>
+            <div style="margin-top: -2px; flex-shrink: 0;">
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">_</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; line-height: 1;">□</button>
+                <button class="btn" style="width: 22px; height: 22px; padding: 0; font-weight: bold; margin-left: 2px; line-height: 1;" onclick="closeWindow('window-project')">X</button>
+            </div>
+        </div>
+        <div class="card-body" style="background: white; min-height: 300px; border: 2px inset #d5d5d5; padding: 10px; margin: 4px; box-shadow: -1px -1px 0 0 #828282;">
+            <div class="d-flex flex-wrap align-items-start" style="gap: 20px;">
+                <div class="text-center" style="width: 80px; cursor: pointer; padding: 4px;" onclick="window.open('https://mindmap-ivory.vercel.app/', '_blank')" onmouseover="this.style.background='#000080'; this.style.color='white';" onmouseout="this.style.background='transparent'; this.style.color='black';">
+                    <img src="assets/icons/executable-0.png" style="width: 48px; height: 48px; object-fit: contain; margin-bottom: 4px; border: 1px solid transparent;">
+                    <div style="font-size: 12px; line-height: 1.2; word-wrap: break-word;">mindmapeditor.exe</div>
+                    <div style="font-size: 10px; color: gray; margin-top: 2px;">4.50 MB</div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer d-flex align-items-center" style="padding: 2px 6px; font-size: 11px; color: #424242; border-top: 1px outset #fff; background: silver;">
+            1 個物件
+        </div>
+    </div>
 </div>
-<div class="container" id="page-content">
-  <div class="row mb-5"> 
-      <div class="col-md-6 my-auto">
-          <div class="card mb-4">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal ">右邊有 WINAMP</h4>
-              </div>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>可以放音樂和調音</li>
-                  <li>你也可以上傳你想要聽的音檔</li>
-                </ul>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header">
-                <h4 class="my-0 font-weight-normal ">不知道這裡可以放啥</h4>
-              </div>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li></li>
-                  <li><a href="https://www.youtube.com/watch?v=g8jWi6ipSew&list=RDg8jWi6ipSew&start_radio=1"></a></li>
-                </ul>
-              </div>
-            </div>
-        </div>
-        <div class="col-md-6 text-center">
-            <div id="app" style="min-height: 400px">
-                <!-- Webamp will attempt to center itself within this div -->
-            </div>
-        </div>
-  </div>
-</div>
-    
-<div class="container">
-    <div class="card mb-4">
-    <div class="card-header">
-        <h4 class="my-0 font-weight-normal">聯繫我</h4>
-        </div>
-      <div class="card-body">
- <form>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label"><img src="assets/icons/envelope_closed-1.png" class="icon-16-4"> 你的e-mail：</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-95" id="inputEmail3">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label"><img src="assets/icons/user_world-0.png" class="icon-16-4"> 你的名字：</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-95" id="inputPassword3">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">輸入訊息：</label>
-    <textarea class="form-95" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="form-group row">
-    <div class="col-sm-3">Check it if you are spamer</div>
-    <div class="col-sm-9">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Yes, I am spamer
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Send this email</button>
-    </div>
-  </div>
-</form>
-          </div>
-        </div>
-</div>
-    
-    <div class="text-center mb-4">
-        <img src="assets/logo.png" >
-    </div>
-    
-     
-    
+
   <footer class="taskbar">
-      <div class="row" style="margin-right: 0px;">
-          <div class="col-8">
-              <a href="https://github.com/AlexBSoft" class="btn start-button"><img src="assets/icons/users-1.png" class="icon-16">原作者github</a>
-              <a href="https://github.com/opboy94777" class="btn start-button"><img src="assets/icons/directory_folder_options-5.png" class="icon-16">我的github</a>
-            </div>
+      <div class="d-flex justify-content-between align-items-center w-100" style="height: 28px;">
+          <div class="d-flex align-items-center" id="taskbar-items">
+              <a href="#" class="btn start-button font-weight-bold mr-2" style="padding-left: 4px; padding-right: 6px;"><img src="assets/icons/windows-0.png" class="icon-16" style="margin-right: 4px;">Start</a>
+              <div class="mx-1 d-flex align-items-center" style="height: 22px; width: 2px; border-left: 1px solid #808080; border-right: 1px solid #fff;"></div>
+          </div>
+          <div class="time text-right d-flex align-items-center justify-content-center" style="border: 2px inset #fff; padding: 2px 8px; margin: 0; background: silver; height: 24px;">
+              <img src="assets/icons/loudspeaker_rays-0.png" class="icon-16 mr-2">
+              <span style="font-size: 11px;">10:30 AM</span>
+          </div>
       </div>
-    
   </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -189,22 +189,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 <script src="assets/clippy/clippy.min.js"></script>    
-    
-    
 <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
-    <script>
-        const Webamp = window.Webamp;
-        new Webamp({
-            initialTracks: [{
-                metaData: {
-                    artist: "Kevin MacLeod",
-                    title: "Study and Relax"
-                },
-                url: "assets/Study-and-Relax.mp3",
-                duration: 223
-            }],
-        }).renderWhenReady(document.getElementById('app'));
-        
+<script src="assets/js/winamp_desktop.js"></script>
+<script src="assets/js/windows.js"></script>
+<script>
         clippy.load('Clippy', function(agent) {
             // Do anything with the loaded agent
             agent.show();
