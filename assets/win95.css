@@ -348,11 +348,12 @@ FOOTER
     position: static;
     bottom: 0;
     border-top: 2px outset #fff;
-    z-index: 228;
+    z-index: 9999;
     width: 100%;
     margin-right: 0px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
 }
 .taskbar .start-button {
     cursor: default;
